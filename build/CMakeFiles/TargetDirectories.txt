@@ -1,0 +1,5 @@
+/home/ruihan/Desktop/GelSight/sdkdemo/build/CMakeFiles/rebuild_cache.dir
+/home/ruihan/Desktop/GelSight/sdkdemo/build/CMakeFiles/edit_cache.dir
+/home/ruihan/Desktop/GelSight/sdkdemo/build/demo/CMakeFiles/rebuild_cache.dir
+/home/ruihan/Desktop/GelSight/sdkdemo/build/demo/CMakeFiles/demo.dir
+/home/ruihan/Desktop/GelSight/sdkdemo/build/demo/CMakeFiles/edit_cache.dir
