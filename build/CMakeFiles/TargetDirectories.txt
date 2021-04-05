@@ -1,5 +1,8 @@
-/home/ruihan/GelSight_setup/build/CMakeFiles/rebuild_cache.dir
-/home/ruihan/GelSight_setup/build/CMakeFiles/edit_cache.dir
-/home/ruihan/GelSight_setup/build/demo/CMakeFiles/rebuild_cache.dir
-/home/ruihan/GelSight_setup/build/demo/CMakeFiles/demo.dir
-/home/ruihan/GelSight_setup/build/demo/CMakeFiles/edit_cache.dir
+/home/ruihan/Desktop/GelSight_setup/build/CMakeFiles/rebuild_cache.dir
+/home/ruihan/Desktop/GelSight_setup/build/CMakeFiles/edit_cache.dir
+/home/ruihan/Desktop/GelSight_setup/build/demo/CMakeFiles/rebuild_cache.dir
+/home/ruihan/Desktop/GelSight_setup/build/demo/CMakeFiles/demo.dir
+/home/ruihan/Desktop/GelSight_setup/build/demo/CMakeFiles/edit_cache.dir
+/home/ruihan/Desktop/GelSight_setup/build/fingerdemo/CMakeFiles/rebuild_cache.dir
+/home/ruihan/Desktop/GelSight_setup/build/fingerdemo/CMakeFiles/fingerdemo.dir
+/home/ruihan/Desktop/GelSight_setup/build/fingerdemo/CMakeFiles/edit_cache.dir

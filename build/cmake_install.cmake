@@ -1,4 +1,4 @@
-# Install script for directory: /home/ruihan/GelSight_setup
+# Install script for directory: /home/ruihan/Desktop/GelSight_setup
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/ruihan/GelSight_setup/build/demo/cmake_install.cmake")
+  include("/home/ruihan/Desktop/GelSight_setup/build/demo/cmake_install.cmake")
+  include("/home/ruihan/Desktop/GelSight_setup/build/fingerdemo/cmake_install.cmake")
 
 endif()
 
@@ -51,5 +52,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ruihan/GelSight_setup/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ruihan/Desktop/GelSight_setup/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

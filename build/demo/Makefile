@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ruihan/GelSight_setup
+CMAKE_SOURCE_DIR = /home/ruihan/Desktop/GelSight_setup
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ruihan/GelSight_setup/build
+CMAKE_BINARY_DIR = /home/ruihan/Desktop/GelSight_setup/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ruihan/GelSight_setup/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ruihan/GelSight_setup/build/CMakeFiles /home/ruihan/GelSight_setup/build/demo/CMakeFiles/progress.marks
-	cd /home/ruihan/GelSight_setup/build && $(MAKE) -f CMakeFiles/Makefile2 demo/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruihan/GelSight_setup/build/CMakeFiles 0
+	cd /home/ruihan/Desktop/GelSight_setup/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ruihan/Desktop/GelSight_setup/build/CMakeFiles /home/ruihan/Desktop/GelSight_setup/build/demo/CMakeFiles/progress.marks
+	cd /home/ruihan/Desktop/GelSight_setup/build && $(MAKE) -f CMakeFiles/Makefile2 demo/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruihan/Desktop/GelSight_setup/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ruihan/GelSight_setup/build && $(MAKE) -f CMakeFiles/Makefile2 demo/clean
+	cd /home/ruihan/Desktop/GelSight_setup/build && $(MAKE) -f CMakeFiles/Makefile2 demo/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ruihan/GelSight_setup/build && $(MAKE) -f CMakeFiles/Makefile2 demo/preinstall
+	cd /home/ruihan/Desktop/GelSight_setup/build && $(MAKE) -f CMakeFiles/Makefile2 demo/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ruihan/GelSight_setup/build && $(MAKE) -f CMakeFiles/Makefile2 demo/preinstall
+	cd /home/ruihan/Desktop/GelSight_setup/build && $(MAKE) -f CMakeFiles/Makefile2 demo/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ruihan/GelSight_setup/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ruihan/Desktop/GelSight_setup/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 demo/CMakeFiles/demo.dir/rule:
-	cd /home/ruihan/GelSight_setup/build && $(MAKE) -f CMakeFiles/Makefile2 demo/CMakeFiles/demo.dir/rule
+	cd /home/ruihan/Desktop/GelSight_setup/build && $(MAKE) -f CMakeFiles/Makefile2 demo/CMakeFiles/demo.dir/rule
 .PHONY : demo/CMakeFiles/demo.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ demo: demo/CMakeFiles/demo.dir/rule
 
 # fast build rule for target.
 demo/fast:
-	cd /home/ruihan/GelSight_setup/build && $(MAKE) -f demo/CMakeFiles/demo.dir/build.make demo/CMakeFiles/demo.dir/build
+	cd /home/ruihan/Desktop/GelSight_setup/build && $(MAKE) -f demo/CMakeFiles/demo.dir/build.make demo/CMakeFiles/demo.dir/build
 .PHONY : demo/fast
 
 demo.o: demo.cpp.o
@@ -131,7 +131,7 @@ demo.o: demo.cpp.o
 
 # target to build an object file
 demo.cpp.o:
-	cd /home/ruihan/GelSight_setup/build && $(MAKE) -f demo/CMakeFiles/demo.dir/build.make demo/CMakeFiles/demo.dir/demo.cpp.o
+	cd /home/ruihan/Desktop/GelSight_setup/build && $(MAKE) -f demo/CMakeFiles/demo.dir/build.make demo/CMakeFiles/demo.dir/demo.cpp.o
 .PHONY : demo.cpp.o
 
 demo.i: demo.cpp.i
@@ -140,7 +140,7 @@ demo.i: demo.cpp.i
 
 # target to preprocess a source file
 demo.cpp.i:
-	cd /home/ruihan/GelSight_setup/build && $(MAKE) -f demo/CMakeFiles/demo.dir/build.make demo/CMakeFiles/demo.dir/demo.cpp.i
+	cd /home/ruihan/Desktop/GelSight_setup/build && $(MAKE) -f demo/CMakeFiles/demo.dir/build.make demo/CMakeFiles/demo.dir/demo.cpp.i
 .PHONY : demo.cpp.i
 
 demo.s: demo.cpp.s
@@ -149,7 +149,7 @@ demo.s: demo.cpp.s
 
 # target to generate assembly for a file
 demo.cpp.s:
-	cd /home/ruihan/GelSight_setup/build && $(MAKE) -f demo/CMakeFiles/demo.dir/build.make demo/CMakeFiles/demo.dir/demo.cpp.s
+	cd /home/ruihan/Desktop/GelSight_setup/build && $(MAKE) -f demo/CMakeFiles/demo.dir/build.make demo/CMakeFiles/demo.dir/demo.cpp.s
 .PHONY : demo.cpp.s
 
 # Help Target
@@ -175,6 +175,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ruihan/GelSight_setup/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ruihan/Desktop/GelSight_setup/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

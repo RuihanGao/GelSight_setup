@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ruihan/GelSight_setup
+CMAKE_SOURCE_DIR = /home/ruihan/Desktop/GelSight_setup
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ruihan/GelSight_setup/build
+CMAKE_BINARY_DIR = /home/ruihan/Desktop/GelSight_setup/build
 
 #=============================================================================
 # Directory level rules for directory demo
@@ -84,7 +84,7 @@ demo/preinstall:
 demo/CMakeFiles/demo.dir/all:
 	$(MAKE) -f demo/CMakeFiles/demo.dir/build.make demo/CMakeFiles/demo.dir/depend
 	$(MAKE) -f demo/CMakeFiles/demo.dir/build.make demo/CMakeFiles/demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruihan/GelSight_setup/build/CMakeFiles --progress-num=1,2 "Built target demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruihan/Desktop/GelSight_setup/build/CMakeFiles --progress-num=1,2 "Built target demo"
 .PHONY : demo/CMakeFiles/demo.dir/all
 
 # Include target in all.
@@ -94,9 +94,9 @@ all: demo/CMakeFiles/demo.dir/all
 
 # Build rule for subdir invocation for target.
 demo/CMakeFiles/demo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruihan/GelSight_setup/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruihan/Desktop/GelSight_setup/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 demo/CMakeFiles/demo.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruihan/GelSight_setup/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruihan/Desktop/GelSight_setup/build/CMakeFiles 0
 .PHONY : demo/CMakeFiles/demo.dir/rule
 
 # Convenience name for target.
@@ -111,6 +111,61 @@ demo/CMakeFiles/demo.dir/clean:
 
 # clean rule for target.
 clean: demo/CMakeFiles/demo.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory fingerdemo
+
+# Convenience name for "all" pass in the directory.
+fingerdemo/all: fingerdemo/CMakeFiles/fingerdemo.dir/all
+
+.PHONY : fingerdemo/all
+
+# Convenience name for "clean" pass in the directory.
+fingerdemo/clean: fingerdemo/CMakeFiles/fingerdemo.dir/clean
+
+.PHONY : fingerdemo/clean
+
+# Convenience name for "preinstall" pass in the directory.
+fingerdemo/preinstall:
+
+.PHONY : fingerdemo/preinstall
+
+#=============================================================================
+# Target rules for target fingerdemo/CMakeFiles/fingerdemo.dir
+
+# All Build rule for target.
+fingerdemo/CMakeFiles/fingerdemo.dir/all:
+	$(MAKE) -f fingerdemo/CMakeFiles/fingerdemo.dir/build.make fingerdemo/CMakeFiles/fingerdemo.dir/depend
+	$(MAKE) -f fingerdemo/CMakeFiles/fingerdemo.dir/build.make fingerdemo/CMakeFiles/fingerdemo.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruihan/Desktop/GelSight_setup/build/CMakeFiles --progress-num=3,4 "Built target fingerdemo"
+.PHONY : fingerdemo/CMakeFiles/fingerdemo.dir/all
+
+# Include target in all.
+all: fingerdemo/CMakeFiles/fingerdemo.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+fingerdemo/CMakeFiles/fingerdemo.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruihan/Desktop/GelSight_setup/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 fingerdemo/CMakeFiles/fingerdemo.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruihan/Desktop/GelSight_setup/build/CMakeFiles 0
+.PHONY : fingerdemo/CMakeFiles/fingerdemo.dir/rule
+
+# Convenience name for target.
+fingerdemo: fingerdemo/CMakeFiles/fingerdemo.dir/rule
+
+.PHONY : fingerdemo
+
+# clean rule for target.
+fingerdemo/CMakeFiles/fingerdemo.dir/clean:
+	$(MAKE) -f fingerdemo/CMakeFiles/fingerdemo.dir/build.make fingerdemo/CMakeFiles/fingerdemo.dir/clean
+.PHONY : fingerdemo/CMakeFiles/fingerdemo.dir/clean
+
+# clean rule for target.
+clean: fingerdemo/CMakeFiles/fingerdemo.dir/clean
 
 .PHONY : clean
 

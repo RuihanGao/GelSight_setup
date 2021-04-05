@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ruihan/GelSight_setup
+CMAKE_SOURCE_DIR = /home/ruihan/Desktop/GelSight_setup
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ruihan/GelSight_setup/build
+CMAKE_BINARY_DIR = /home/ruihan/Desktop/GelSight_setup/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruihan/GelSight_setup/build/CMakeFiles /home/ruihan/GelSight_setup/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruihan/Desktop/GelSight_setup/build/CMakeFiles /home/ruihan/Desktop/GelSight_setup/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruihan/GelSight_setup/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruihan/Desktop/GelSight_setup/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,6 +123,19 @@ demo/fast:
 	$(MAKE) -f demo/CMakeFiles/demo.dir/build.make demo/CMakeFiles/demo.dir/build
 .PHONY : demo/fast
 
+#=============================================================================
+# Target rules for targets named fingerdemo
+
+# Build rule for target.
+fingerdemo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 fingerdemo
+.PHONY : fingerdemo
+
+# fast build rule for target.
+fingerdemo/fast:
+	$(MAKE) -f fingerdemo/CMakeFiles/fingerdemo.dir/build.make fingerdemo/CMakeFiles/fingerdemo.dir/build
+.PHONY : fingerdemo/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -132,6 +145,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... demo"
+	@echo "... fingerdemo"
 .PHONY : help
 
 

@@ -8,4 +8,4 @@ set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}")
 
 add_subdirectory(demo)
-
+add_subdirectory(fingerdemo)

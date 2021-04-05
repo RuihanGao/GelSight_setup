@@ -39,21 +39,22 @@ You should be able to click the triangle in the upper left corner of xiCamTool a
 ## Checklist/tips for debugging
 * If you encounter the following issue is when running xiCOP in /opt/XIMEA/bin: <br/>
  `[MC050MG-SY-UB/CIMAU1633011] Kernel setting usbcore.usbfs_memory_mb is too low.` <br/>
-Execute the following command: <>
+Execute the following command: <br/>
 `sudo tee /sys/module/usbcore/parameters/usbfs_memory_mb >/dev/null <<<0`
-```
+
+* If you encounter `terminate called after throwing an instance of gs::Exception what():  Library not initialized` <br/>
+  check `gelsight_64.bin` is properly stored in `$GS_SDK/lib` (and `GelSightSdk20210113_Ubuntu18` folderin current workspace)
 
 ## Known issue
 * If you run `ruihan@Precision-M4800:~/package/examples/xiSample$ ./xiSample` or any abovementioned command in terminal, the following errors may occur, which is currently ignored as long as xiCamTool returns reasonale images. (The log level can also be set in xiCamTool)
 ```
-...
 xiAPI: xiAPI error: Expected XI_OK 
 ```
 
 ## Building the sdkdemo
 Download the software: <br/>
  - http://www.gelsight.com/downloads/GelSightSdk20210113.Ubuntu18.tar.gz (for Ubuntu18)
-- http://www.gelsight.com/downloads/GelSightSdk20210114.U20.tar.gz (for Ubuntu20)
+ - http://www.gelsight.com/downloads/GelSightSdk20210114.U20.tar.gz (for Ubuntu20)
 Download the license: <br/>
  - http://www.gelsight.com/downloads/AStar_gelsight_64.bin (for Ubuntu18) (currently expires on Jan 14, 2022)
  - http://www.gelsight.com/downloads/AStar_Ub20_gelsight_64.bin (for Ubuntu20)
@@ -79,6 +80,7 @@ cmake ..; make
 
 ./demo/demo
 ```
+
 A sample successful output of `./demo/demo` should be something like the followings (which takes a few minutes to run):
 ```
 (base) ruihan@ruihan-MS-7B18:~/Desktop/GelSight/sdkdemo/build$ ./demo/demo
