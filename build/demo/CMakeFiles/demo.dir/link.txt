@@ -1,1 +1,1 @@
-/usr/bin/c++    -rdynamic CMakeFiles/demo.dir/demo.cpp.o  -o demo -Wl,-rpath,/home/ruihan/Desktop/GelSight/GelSightSdk20210113_Ubuntu18/lib /home/ruihan/Desktop/GelSight/GelSightSdk20210113_Ubuntu18/lib/libgscore.so /home/ruihan/Desktop/GelSight/GelSightSdk20210113_Ubuntu18/lib/libgsanalysis.so -lstdc++fs 
+/usr/bin/c++    -rdynamic CMakeFiles/demo.dir/demo.cpp.o  -o demo -Wl,-rpath,/home/ruihan/GelSight_setup/GelSightSdk20210113_Ubuntu18/lib ../../GelSightSdk20210113_Ubuntu18/lib/libgscore.so ../../GelSightSdk20210113_Ubuntu18/lib/libgsanalysis.so -lstdc++fs 

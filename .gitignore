@@ -1,0 +1,6 @@
+build/*
+# license
+AStar_gelsight_64.bin
+GelSightSdk20210113.Ubuntu18.tar.gz
+GelSightSdk20210113_Ubuntu18/*
+

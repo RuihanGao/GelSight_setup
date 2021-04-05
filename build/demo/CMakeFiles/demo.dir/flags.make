@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=gnu++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/ruihan/Desktop/GelSight/sdkdemo/demo/demo -I/home/ruihan/Desktop/GelSight/GelSightSdk20210113_Ubuntu18/include 
+CXX_INCLUDES = -I/home/ruihan/GelSight_setup/demo/demo -I/home/ruihan/GelSight_setup/GelSightSdk20210113_Ubuntu18/include 
 

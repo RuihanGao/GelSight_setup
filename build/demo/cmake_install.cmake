@@ -1,4 +1,4 @@
-# Install script for directory: /home/ruihan/Desktop/GelSight/sdkdemo/demo
+# Install script for directory: /home/ruihan/GelSight_setup/demo
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
